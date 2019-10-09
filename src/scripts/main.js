@@ -43,3 +43,13 @@ const child2 = {
 const myFamily = [father, mother, child, child2];
 
 console.log(myFamily);
+
+const wardrobe = {
+    height: 80,
+    manufacturer: "Killibrew & Sons",
+    contents: ["Dress shirt", "Jeans", "Suit", "Skirt", "Tennis shoes"],
+    depth: 38,
+    width: 50
+};
+
+console.log(`The wardrobe object contains the following values: ${wardrobe.height}, ${wardrobe.manufacturer}, ${wardrobe.contents}, ${wardrobe.depth}, and ${wardrobe.width}.`);
