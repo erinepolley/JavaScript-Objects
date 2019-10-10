@@ -88,3 +88,24 @@ console.log(empireStateBuilding[date]);
 console.log(empireStateBuilding[cost]);
 console.log(empireStateBuilding[owner]);
 console.log(empireStateBuilding[architect]);
+
+const nashvilleSoftwareSchool = {
+    founded: 2012,
+    director: "John Wark",
+    instructors: {
+        fullTime: ["Jisie", "Brenda", "Steve", "Joe", "Andy"],
+        partTime: ["Zoe", "Nathan"]
+    },
+    address: "500 Interstate Blvd. S"
+}
+
+var instructors = nashvilleSoftwareSchool.instructors.fullTime.toString();
+console.log(instructors);
+console.log(`Hello, and welcome to NSS! Our full time instructors are the following fabulous people: ${instructors}.
+Part time instructors are ${nashvilleSoftwareSchool.instructors.partTime[0]} and ${nashvilleSoftwareSchool.instructors.partTime[1]}. `)
+console.log(nashvilleSoftwareSchool.instructors.partTime[0], nashvilleSoftwareSchool.instructors.partTime[1]);
+
+// For in loop to iterate over the instructors object
+for (let i in nashvilleSoftwareSchool.instructors) {
+    console.log(nashvilleSoftwareSchool.instructors[i]);
+}
