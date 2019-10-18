@@ -139,7 +139,7 @@ const beatles = {
         }
     ]
 }
-
+//targeting certain objects in the array
 console.log(`${beatles.members[1].name} was in the Beatles from 
 ${beatles.history.formed} to ${beatles.history.disbanded}. He was
 born in ${beatles.members[1].birth}. He contributed to the 
